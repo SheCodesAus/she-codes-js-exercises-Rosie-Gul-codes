@@ -15,5 +15,4 @@ function showMessage() {
     let message = document.getElementById('message-text').value
     let messageBox = document.getElementById("message-box");
     messageBox.innerText = message;
-    console.log(message);
 }
