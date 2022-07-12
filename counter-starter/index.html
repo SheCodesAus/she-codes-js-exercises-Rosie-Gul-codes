@@ -14,7 +14,17 @@
     <body>
         <div id="wrapper">
             <p id="number">0</p>
-            <div id="button-wrapper"></div>
+            <div id="button-wrapper"> 
+                <input type="button" value="+1" id="addition" onclick="add(1)"/>
+                <input type="button" value="+10" id="addition" onclick="add(10)"/>
+                <input type="button" value="-1" id="subtraction" onclick="subtraction(1)"/>
+                <input type="button" value="-10" id="subtraction" onclick="subtraction(10)"/>
+                <input type="button" value="*2" id="multiplication" onclick="multiply(2)"/>
+                <input type="button" value="*10" id="multiplication" onclick="multiply(10)"/>
+                <input type="button" value="/2" id="division" onclick="divide(2)"/>
+                <input type="button" value="/10" id="division" onclick="divide(10)"/>
+            </div>
         </div>
     </body>
+    <script src="./script.js"></script>
 </html>
